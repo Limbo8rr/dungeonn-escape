@@ -1,0 +1,41 @@
+{
+    "transparency16": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true
+    },
+    "tile1": {
+        "data": "hwQQABAAAAAAVQUAAAAAAABVBQAAAAAAAFUBAACgAAAAACAAAKoAAgAAAAGgqogCEAEAIKqqAADw3aCqqqoAAP/draqqqgAA8N2gqqqqAAAQAQAAqqoAAgAAAACgqogCAAAAAACqAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile"
+    },
+    "tile2": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4O7u7u7u7gDg7p7u7u7uAODun+7u7u4A4J757u7u7gDg///u7u7uAOD//+7u7u4A4J757lXl7gDg7p/uReXuAODunu5V5e4A4O7u7u7u7gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile0"
+    },
+    "level1": {
+        "id": "level1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTAwMDA0MDAwMDAwMDAwMDAwMDAwMDAwMDAwNzAwMDAwMDA0MDYwMDA2MDYwMDA2MDQwNjAwMDYwNjAwMDYwNjAwMDYwMjAwMDAwMDAwMDAwMDAwMDAwMDAwMDQwMDAwMDAwNDA2MDAwNzA2MDYwNjA2MDYwNTA2MDYwNjA2MDcwMDA2MDYwMDA2MDYwNjA2MDcwNzA3MDcwNzA2MDYwNjAwMDYwMDAwMDAwMDAwMDAwNzAxMDcwMTA3MDUwMDAwMDAwNDA2MDAwNjA2MDYwNjA0MDcwNzA3MDcwNjA2MDYwMDA2MDYwMDA2MDgwODA2MDYwNjA3MDYwNjA2MDgwNjA3MDYwNjA1MDYwNjA2MDYwNzA0MDcwNzA3MDYwNjA2MDAwNjAwMDAwMDA1MDAwMDA3MDYwNzA2MDcwNTAwMDAwMDA3MDAwNjA2MDYwNjA2MDcwMDA1MDUwNTA2MDYwNjA2MDAwMDA2MDYwNjA2MDYwNjA2MDUwNjA2MDYwNjA2MDYwMDA3MDAwNDA0MDQwNDA0MDAwMDAwMDAwMDAwMDAwMDA0MDYwNjA2MDYwNjA2MDYwNjA1MDYwNjA2MDYwNjA2MDYwNjAwMDAwMDA3MDAwMDAwMDAwMDAwMDQwNDA0MDQwNjA2MDMwNjA2MDYwNjA2MDYwNjA2MDYwNjA2MDYwNDA2MDAwMDAwMDAwMDAwMDAwMDAyMjIyMDIwMjAwMjIyMjAwMDAwMDAwMDAwMDAwMDAwMDIyMDIyMjIyMDIyMDIyMDAyMjIyMjAwMDAyMDIyMjAwMDAwMDAyMDIwMDAwMDAwMDIyMjIyMDAwMDIwMjIyMDAyMjIyMjIyMjAyMjIyMjAwMjIyMjIwMDAwMjAyMjIwMDAwMDAwMjAyMDAwMDAwMDIwMjIyMjAwMDAyMDIyMDIyMDIyMjIyMjIwMjIyMjAyMDAwMDAwMDAwMDAwMDAwMDIyMjIyMjIyMjAyMjIyMjIwMjAwMDAwMDAwMDAwMDIwMDIyMjIyMjIyMjIyMjIyMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.dungeon.darkGroundNorthWest1",
+            "sprites.dungeon.collectibleRedCrystal",
+            "sprites.dungeon.collectibleBlueCrystal",
+            "myTiles.tile1",
+            "myTiles.tile2",
+            "sprites.castle.rock2",
+            "sprites.dungeon.chestClosed",
+            "sprites.dungeon.chestOpen"
+        ],
+        "displayName": "level1"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myTiles"
+    }
+}
