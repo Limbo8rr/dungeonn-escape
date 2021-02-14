@@ -1,6 +1,6 @@
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile0`, function (sprite, location) {
     tiles.setTileAt(location, assets.tile`myTile1`)
-    info.changeScoreBy(3)
+    info.changeScoreBy(6)
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile`, function (sprite, location) {
     music.zapped.play()
