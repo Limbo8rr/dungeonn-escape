@@ -1,11 +1,10 @@
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile0`, function (sprite, location) {
     tiles.setTileAt(location, assets.tile`transparency16`)
     music.bigCrash.play()
-    info.changeLifeBy(-4)
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile`, function (sprite, location) {
     music.zapped.play()
-    info.changeLifeBy(-1)
+    info.changeLifeBy(-2)
     tiles.setTileAt(location, assets.tile`transparency16`)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleBlueCrystal, function (sprite, location) {
