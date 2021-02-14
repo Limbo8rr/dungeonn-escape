@@ -1,5 +1,6 @@
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile0`, function (sprite, location) {
     tiles.setTileAt(location, assets.tile`myTile1`)
+    info.changeScoreBy(3)
 })
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile`, function (sprite, location) {
     music.zapped.play()
@@ -10,7 +11,7 @@ scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.collectibleBlueCrystal, f
     game.over(true)
 })
 scene.onOverlapTile(SpriteKind.Player, sprites.dungeon.chestClosed, function (sprite, location) {
-    info.changeScoreBy(randint(10, 50))
+    info.changeScoreBy(randint(50, 100))
     tiles.setTileAt(location, sprites.dungeon.chestOpen)
 })
 let princess = sprites.create(img`
@@ -34,6 +35,6 @@ let princess = sprites.create(img`
 scene.setBackgroundColor(6)
 tiles.setTilemap(tilemap`level1`)
 tiles.placeOnRandomTile(princess, sprites.dungeon.collectibleRedCrystal)
-controller.moveSprite(princess)
+controller.moveSprite(princess, 50, 50)
 scene.cameraFollowSprite(princess)
 info.setLife(10)
