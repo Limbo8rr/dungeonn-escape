@@ -6,6 +6,8 @@ namespace myTiles {
     export const tile1 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
     export const tile2 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile3 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -27,7 +29,7 @@ namespace myTiles {
 2 2 2 2 2 2 2 2 . 2 2 2 2 2 2 2 
 2 . . . . . . . . . . . . . . 2 
 2 . 2 2 2 2 2 2 2 2 2 2 2 2 . 2 
-`, [myTiles.transparency16,sprites.dungeon.darkGroundNorthWest1,sprites.dungeon.collectibleRedCrystal,sprites.dungeon.collectibleBlueCrystal,myTiles.tile1,myTiles.tile2,sprites.castle.rock2,sprites.dungeon.chestClosed,sprites.dungeon.chestOpen], TileScale.Sixteen);
+`, [myTiles.transparency16,sprites.dungeon.darkGroundNorthWest1,sprites.dungeon.collectibleRedCrystal,sprites.dungeon.collectibleBlueCrystal,myTiles.tile1,myTiles.tile2,sprites.castle.rock2,sprites.dungeon.chestClosed,sprites.dungeon.chestOpen,myTiles.tile3], TileScale.Sixteen);
         }
         return null;
     })
@@ -39,6 +41,8 @@ namespace myTiles {
             case "tile1":return tile1;
             case "myTile0":
             case "tile2":return tile2;
+            case "myTile1":
+            case "tile3":return tile3;
         }
         return null;
     })

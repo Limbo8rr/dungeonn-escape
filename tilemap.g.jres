@@ -16,6 +16,12 @@
         "tilemapTile": true,
         "displayName": "myTile0"
     },
+    "tile3": {
+        "data": "hwQQABAAAAD//////////++e7u7u7u7u7/nu7lXl7u7//////////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile1"
+    },
     "level1": {
         "id": "level1",
         "mimeType": "application/mkcd-tilemap",
@@ -29,7 +35,8 @@
             "myTiles.tile2",
             "sprites.castle.rock2",
             "sprites.dungeon.chestClosed",
-            "sprites.dungeon.chestOpen"
+            "sprites.dungeon.chestOpen",
+            "myTiles.tile3"
         ],
         "displayName": "level1"
     },
